@@ -21,12 +21,17 @@
 		<a href="/popover-hint"><code>hint</code></a>, a także
 		<code>manual</code>.
 		<br /><br />
-		Wartość <code>auto</code> w zamian za funkcjonalność light-dismiss nie pozwala nam tworzyć wiele
-		popoverów jednocześnie, do tego potrzebujemy użyć wartość <code>manual</code>, która natomiast
-		nie posiada light-dismissa.
+		Wartość <code>auto</code> w zamian za funkcjonalność light-dismiss nie pozwala nam wyświetlać
+		wiele popoverów jednocześnie, do tego potrzebujemy użyć wartość <code>manual</code>, która
+		natomiast nie posiada light-dismissa.
+		<br /><br />
+		Wyjątek od tej reguły stanowią zagnieżdżone w sobie popovery, w takim przypadku nawet z
+		<code>popover="auto"</code>
+		da się wyświetlać wiele popoverów jednocześnie
 		<br /><br />
 		Popovery domyślnie pozycjonowane są na środku ekranu i istnieją we własnym
-		<code>#top-layer</code>.
+		<code>#top-layer</code>. Posiadają także pseudo-element <code>::backdrop</code>, który domyślnie
+		nie jest wystylowany.
 	{/snippet}
 </Explanation>
 <button class="btn" popovertarget="my-popover">Otwórz popover</button>
