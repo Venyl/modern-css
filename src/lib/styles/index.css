@@ -1,0 +1,56 @@
+@layer reset, base;
+
+@import url(reset.css) layer(reset);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'https://unpkg.com/open-props';
+
+@layer base {
+	body {
+		font-family: 'Noto Sans', system-ui;
+		color: #333;
+	}
+
+	.monospace {
+		font-family: 'Noto Sans Mono', monospace;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		font-variation-settings: 'wdth' 100;
+	}
+
+	:focus-visible {
+		transition: outline-offset 200ms ease;
+	}
+
+	:not(:active):focus-visible {
+		outline-offset: 3px;
+	}
+
+	a:any-link {
+		text-decoration: underline;
+		color: royalblue;
+	}
+
+	.btn {
+		background-color: lightgreen;
+		border-radius: 0.5rem;
+		text-box-trim: both;
+		padding: 0.5rem 1rem;
+		transition: background-color 150ms ease;
+
+		&:hover {
+			background-color: oklch(from lightgreen calc(l * 0.95) c h);
+		}
+	}
+
+	code {
+		display: inline-block;
+		font-family: 'Noto Sans Mono', monospace;
+		font-size: 0.875rem;
+		border-radius: var(--radius-2);
+		background-color: var(--gray-2);
+		padding: 5px;
+		text-box: trim-both ex alphabetic;
+		translate: 0 -1px;
+	}
+}
