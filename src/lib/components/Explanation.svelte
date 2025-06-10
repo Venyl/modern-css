@@ -60,13 +60,25 @@
 		width: clamp(var(--size-content-1), 100vw, 70ch);
 		border: 1px solid var(--gray-2);
 		border-radius: var(--radius-3);
+		transition-property: translate, opacity, display;
+		transition-duration: 300ms;
+		transition-timing-function: ease;
 		transition-behavior: allow-discrete;
-		transition:
-			translate 300ms ease,
-			opacity 300ms ease;
 
-		@starting-style {
-			translate: 0 50px;
+		&[open] {
+			/* display: block; */
+			translate: 0 0;
+			opacity: 1;
+
+			@starting-style {
+				translate: 0 -10vh;
+				opacity: 0;
+			}
+		}
+
+		&:not([open]) {
+			inset-block: 0;
+			translate: 0 10vh;
 			opacity: 0;
 		}
 
