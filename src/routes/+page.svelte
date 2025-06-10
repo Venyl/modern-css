@@ -137,6 +137,22 @@
 				border: 1px solid #bbb;
 				box-shadow: 1px 1px 8px -6px #aaa;
 			}
+
+			&[href='/'] {
+				pointer-events: none;
+				opacity: 0.75;
+				position: relative;
+
+				&::before {
+					content: '✕';
+					position: absolute;
+					top: -0.75rem;
+					left: -0.375rem;
+					color: var(--red-5);
+					font-size: var(--size-5);
+					font-weight: 700;
+				}
+			}
 		}
 	}
 </style>
