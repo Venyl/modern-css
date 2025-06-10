@@ -1,10 +1,14 @@
-@layer reset, base;
+@layer open-props, reset, base;
 
 @import url(reset.css) layer(reset);
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import 'https://unpkg.com/open-props';
+@import 'https://unpkg.com/open-props' layer(open-props);
 
 @layer base {
+	html {
+		--font-mono: 'Noto Sans Mono', monospace;
+	}
+
 	body {
 		font-family: 'Noto Sans', system-ui;
 		color: #333;
