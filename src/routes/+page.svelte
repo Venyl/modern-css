@@ -116,7 +116,19 @@
 	}
 
 	li {
+		position: relative;
 		text-align: center;
+
+		&:has(a[href='/'])::before {
+			content: '✕';
+			position: absolute;
+			z-index: 1;
+			top: -8px;
+			right: -3px;
+			color: var(--red-5);
+			font-size: var(--size-4);
+			font-weight: 700;
+		}
 
 		a {
 			display: grid;
@@ -140,18 +152,8 @@
 
 			&[href='/'] {
 				pointer-events: none;
-				opacity: 0.75;
+				opacity: 0.69;
 				position: relative;
-
-				&::before {
-					content: '✕';
-					position: absolute;
-					top: -0.75rem;
-					left: -0.375rem;
-					color: var(--red-5);
-					font-size: var(--size-5);
-					font-weight: 700;
-				}
 			}
 		}
 	}
