@@ -16,7 +16,7 @@
 		</a>
 	</li>
 	<li>
-		<a href="/">&lt;hr&gt; in &lt;select&gt;</a>
+		<a href="/hr-in-select">&lt;hr&gt; in &lt;select&gt;</a>
 	</li>
 	<li><a href="/">[closedby]</a></li>
 	<li><a href="/">[command], [commandfor]</a></li>
