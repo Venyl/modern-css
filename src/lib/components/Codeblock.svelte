@@ -9,9 +9,7 @@
 	let codeDiv: HTMLDivElement;
 
 	async function copyToClipboard() {
-		try {
-			await navigator.clipboard.writeText(codeDiv.innerText);
-		} catch {}
+		await navigator.clipboard.writeText(codeDiv.innerText);
 	}
 </script>
 

@@ -7,6 +7,7 @@
 @layer base {
 	html {
 		--font-mono: 'Noto Sans Mono', monospace;
+		/*--radius-2: 0.5rem;*/
 	}
 
 	body {
@@ -37,14 +38,20 @@
 
 	.btn {
 		background-color: lightgreen;
-		border-radius: 0.5rem;
+		border-radius: var(--radius-2);
 		text-box-trim: both;
-		padding: 0.5rem 1rem;
+		padding: var(--size-2) var(--size-3);
 		transition: background-color 150ms ease;
 
 		&:hover {
 			background-color: oklch(from lightgreen calc(l * 0.95) c h);
 		}
+	}
+
+	.v-rule {
+		width: 0.0625rem;
+		height: 100%;
+		background-color: var(--gray-2);
 	}
 
 	code {
