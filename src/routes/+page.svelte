@@ -61,7 +61,7 @@
 <ul>
 	<li><a href="/media-hover">@media (hover)</a></li>
 	<li><a href="/media-range-syntax">Media query range syntax</a></li>
-	<li><a href="/">paint-order</a></li>
+	<li><a href="/paint-order">paint-order</a></li>
 	<li><a href="/">fit-content()</a></li>
 	<li><a href="/">border-image</a></li>
 	<li><a href="/any-link">:any-link</a></li>
@@ -92,7 +92,6 @@
 	</li>
 	<li><a href="/">display: masonry</a></li>
 	<li><a href="/">corner-shape</a></li>
-	<li><a href="/">@media (any-pointer)</a></li>
 </ul>
 
 <style>
