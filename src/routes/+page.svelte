@@ -64,7 +64,7 @@
 	<li><a href="/">paint-order</a></li>
 	<li><a href="/">fit-content()</a></li>
 	<li><a href="/">border-image</a></li>
-	<li><a href="/">any-link</a></li>
+	<li><a href="/any-link">:any-link</a></li>
 	<li><a href="/">:has()</a></li>
 	<li><a href="/">interactivity: inert</a></li>
 	<li><a href="/">@layer</a></li>
@@ -84,6 +84,15 @@
 	<li><a href="/">text-box</a></li>
 	<li><a href="/">box-decoration-break</a></li>
 	<li><a href="/">animation-composition</a></li>
+	<li>
+		<a
+			href="https://microsoftedge.github.io/Demos/css-gap-decorations/playground.html"
+			target="_blank">Gap decorations</a
+		>
+	</li>
+	<li><a href="/">display: masonry</a></li>
+	<li><a href="/">corner-shape</a></li>
+	<li><a href="/">@media (any-pointer)</a></li>
 </ul>
 
 <style>
