@@ -2,7 +2,7 @@
 	import Explanation from '$lib/components/Explanation.svelte';
 	import { browserAvailability } from '$lib/stores.svelte';
 
-	browserAvailability.href = 'https://caniuse.com/mdn-html_global_attributes_inert';
+	browserAvailability.href = 'https://caniuse.com/mdn-css_properties_interactivity_inert';
 </script>
 
 <Explanation>
