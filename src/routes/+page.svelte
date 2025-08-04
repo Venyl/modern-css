@@ -66,7 +66,7 @@
 	<li><a href="/">border-image</a></li>
 	<li><a href="/any-link">:any-link</a></li>
 	<li><a href="/">:has()</a></li>
-	<li><a href="/">interactivity: inert</a></li>
+	<li><a href="/interactivity-inert">interactivity: inert</a></li>
 	<li><a href="/">@layer</a></li>
 	<li><a href="/">@property</a></li>
 	<li><a href="/">Multi-value display</a></li>
@@ -75,7 +75,7 @@
 	<li><a href="/">field-sizing</a></li>
 	<li><a href="/">container-name, container-type, @container, style()</a></li>
 	<li><a href="/">typed attr()</a></li>
-	<li><a href="/">sibling-count(), sibling-index()</a></li>
+	<li><a href="/sibling-count-index">sibling-count(), sibling-index()</a></li>
 	<li><a href="/">progress()</a></li>
 	<li><a href="/">width / height: stretch</a></li>
 	<li><a href="/">@function</a></li>
