@@ -67,7 +67,7 @@
 	<li><a href="/any-link">:any-link</a></li>
 	<li><a href="/">:has()</a></li>
 	<li><a href="/interactivity-inert">interactivity: inert</a></li>
-	<li><a href="/">@layer</a></li>
+	<li><a href="/layer">@layer</a></li>
 	<li><a href="/">@property</a></li>
 	<li><a href="/">Multi-value display</a></li>
 	<li><a href="/">named &lt;details&gt;, ::details-content</a></li>
