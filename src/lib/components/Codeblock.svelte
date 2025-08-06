@@ -42,7 +42,7 @@
 		display: grid;
 		grid-template-rows: var(--size-6) 1fr;
 		max-width: stretch;
-		max-height: 10lh;
+		/*max-height: 10lh;*/
 		background-color: var(--gray-8);
 		border-radius: var(--radius-3);
 		overflow: clip;
