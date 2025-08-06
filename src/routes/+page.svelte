@@ -62,7 +62,7 @@
 	<li><a href="/media-hover">@media (hover)</a></li>
 	<li><a href="/media-range-syntax">Media query range syntax</a></li>
 	<li><a href="/paint-order">paint-order</a></li>
-	<li><a href="/">fit-content()</a></li>
+	<li><a href="/fit-content-fn">fit-content()</a></li>
 	<li><a href="/">border-image</a></li>
 	<li><a href="/any-link">:any-link</a></li>
 	<li><a href="/">:has()</a></li>
@@ -77,7 +77,7 @@
 	<li><a href="/">typed attr()</a></li>
 	<li><a href="/sibling-count-index">sibling-count(), sibling-index()</a></li>
 	<li><a href="/">progress()</a></li>
-	<li><a href="/">width / height: stretch</a></li>
+	<li><a href="/width-height-stretch">width / height: stretch</a></li>
 	<li><a href="/">@function</a></li>
 	<li><a href="/">if()</a></li>
 	<li><a href="/">shape()</a></li>
