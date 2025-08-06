@@ -72,7 +72,7 @@
 	<li><a href="/">Multi-value display</a></li>
 	<li><a href="/">named &lt;details&gt;, ::details-content</a></li>
 	<li><a href="/">calc-size()</a></li>
-	<li><a href="/">field-sizing</a></li>
+	<li><a href="/field-sizing">field-sizing</a></li>
 	<li><a href="/">container-name, container-type, @container, style()</a></li>
 	<li><a href="/">typed attr()</a></li>
 	<li><a href="/sibling-count-index">sibling-count(), sibling-index()</a></li>
