@@ -8,8 +8,14 @@
 <Codeblock>
 	{#snippet code()}
 		<div style:color="var(--gray-6)">// Przykładowe zastosowanie</div>
-		<div>@media (width &lt; 768px) {'{ }'}</div>
-		<div>@media (768px &lt; width &lt; 1024px) {'{ }'}</div>
-		<div>@media (1000px =&gt; height) {'{ }'}</div>
+		<div><span>@media</span> (width &lt; 768px) {'{ }'}</div>
+		<div><span>@media</span> (768px &lt; width &lt; 1024px) {'{ }'}</div>
+		<div><span>@media</span> (1000px =&gt; height) {'{ }'}</div>
 	{/snippet}
 </Codeblock>
+
+<style>
+	span {
+		color: var(--pink-6);
+	}
+</style>
