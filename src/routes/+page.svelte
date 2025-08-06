@@ -82,7 +82,7 @@
 	<li><a href="/">if()</a></li>
 	<li><a href="/">shape()</a></li>
 	<li><a href="/text-box">text-box</a></li>
-	<li><a href="/">box-decoration-break</a></li>
+	<li><a href="/box-decoration-break">box-decoration-break</a></li>
 	<li><a href="/">animation-composition</a></li>
 	<li>
 		<a
