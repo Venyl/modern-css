@@ -43,7 +43,7 @@
 <h2>Kolory</h2>
 <ul>
 	<li><a href="/accent-color">accent-color</a></li>
-	<li><a href="/">caret-color</a></li>
+	<li><a href="/caret-color">caret-color</a></li>
 	<li><a href="/">Relative colors</a></li>
 	<li><a href="/">color-mix()</a></li>
 	<li><a href="/">color()</a></li>
