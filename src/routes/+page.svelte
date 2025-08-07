@@ -65,7 +65,7 @@
 	<li><a href="/fit-content-fn">fit-content()</a></li>
 	<li><a href="/">border-image</a></li>
 	<li><a href="/any-link">:any-link</a></li>
-	<li><a href="/">:has()</a></li>
+	<li><a href="/has">:has()</a></li>
 	<li><a href="/interactivity-inert">interactivity: inert</a></li>
 	<li><a href="/layer">@layer</a></li>
 	<li><a href="/property">@property</a></li>
