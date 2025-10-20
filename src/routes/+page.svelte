@@ -12,7 +12,7 @@
 	<li><a href="/">[interesttarget], interest-target-delay, :has-interest, [popover="hint"]</a></li>
 	<li>
 		<a href="/"
-			>appearance: base-select, &lt;selectedcontent&gt;, ::picker(), ::picker-icon, ::checkmark,
+			>appearance: base-select, &lt;selectedcontent&gt;, ::picker, ::picker-icon, ::checkmark,
 		</a>
 	</li>
 	<li>
@@ -76,7 +76,7 @@
 	<li><a href="/">container-name, container-type, @container, style()</a></li>
 	<li><a href="/">typed attr()</a></li>
 	<li><a href="/sibling-count-index">sibling-count(), sibling-index()</a></li>
-	<li><a href="/">progress()</a></li>
+	<li><a href="/progress">progress()</a></li>
 	<li><a href="/width-height-stretch">width / height: stretch</a></li>
 	<li><a href="/">@function</a></li>
 	<li><a href="/">if()</a></li>
